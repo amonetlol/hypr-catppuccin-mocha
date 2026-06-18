@@ -1,0 +1,14 @@
+configuration {
+  show-icons: true;
+  drun-display-format: "{name}";
+  disable-history: false;
+  kb-remove-to-eol: "";
+  kb-mode-complete: "";
+  kb-accept-entry: "Return,KP_Enter";
+  kb-move-char-back: "Ctrl+j,Left";
+  kb-move-char-forward: "Ctrl+m,Right";
+  kb-row-down: "Ctrl+k,Down";
+  kb-row-up: "Ctrl+l,Up";
+}
+
+@theme "~/.config/rofi/catppuccin-mocha.rasi"
